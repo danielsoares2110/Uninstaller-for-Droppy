@@ -1,1 +1,3 @@
-This Droplet for Droppy Uninstalls any chosen app.
+# Uninstaller
+
+This Droplet unistalls any chosen app fully with no leftovers.

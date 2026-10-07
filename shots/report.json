@@ -1,0 +1,153 @@
+{
+  "activation" : {
+    "active" : true,
+    "error" : null
+  },
+  "activity" : [
+
+  ],
+  "artwork" : {
+    "creatorAvatar" : "ok",
+    "icon" : "ok"
+  },
+  "capabilities" : {
+    "declared" : [
+      "expanded-surface",
+      "shelf-write",
+      "hud"
+    ],
+    "granted" : [
+      "expanded-surface",
+      "hud",
+      "shelf-write"
+    ]
+  },
+  "droplet" : {
+    "capabilities" : [
+      "expanded-surface",
+      "shelf-write",
+      "hud"
+    ],
+    "category" : "System",
+    "creator" : "Daniel Soares",
+    "icon" : "Uninstaller.icon",
+    "id" : "uninstaller",
+    "kit" : {
+      "abi" : 1,
+      "minAPI" : "1.19.0"
+    },
+    "minAppVersion" : "15.3.0",
+    "name" : "Uninstaller",
+    "summary" : "Fully uninstall apps, leftovers included",
+    "surfaces" : [
+      "shelf-widget",
+      "expanded-surface",
+      "settings-pane",
+      "hud"
+    ],
+    "typeID" : "uninstaller",
+    "version" : "1.0.0"
+  },
+  "expandedSurfaces" : [
+    {
+      "id" : "uninstall-detail",
+      "systemImage" : "trash",
+      "title" : "Uninstaller"
+    }
+  ],
+  "harness" : {
+    "abi" : 1,
+    "apiVersion" : "1.20.1"
+  },
+  "liveActivity" : {
+    "publishing" : false,
+    "seat" : "none(idle)"
+  },
+  "lockScreen" : {
+    "publishing" : false
+  },
+  "log" : [
+    {
+      "at" : "2026-10-07T11:44:29Z",
+      "level" : "info",
+      "message" : "Uninstaller activated"
+    }
+  ],
+  "manifest" : {
+    "loaded" : true,
+    "path" : "\/Users\/danny\/droplet\/uninstaller\/droplet.json",
+    "problem" : null
+  },
+  "problems" : [
+
+  ],
+  "schema" : "droppykit-harness-report\/1",
+  "shelfWidgets" : [
+    {
+      "contentHeight" : "fixed(190.0)",
+      "id" : "uninstaller",
+      "preferredPairedWidth" : 210,
+      "preferredSoloWidth" : 420,
+      "systemImage" : "trash",
+      "title" : "Uninstaller"
+    }
+  ],
+  "shots" : [
+    "\/Users\/danny\/droplet\/uninstaller\/shots\/overview.png",
+    "\/Users\/danny\/droplet\/uninstaller\/shots\/shelf-widget.png",
+    "\/Users\/danny\/droplet\/uninstaller\/shots\/live-activity.png",
+    "\/Users\/danny\/droplet\/uninstaller\/shots\/hud.png",
+    "\/Users\/danny\/droplet\/uninstaller\/shots\/expanded-surface.png",
+    "\/Users\/danny\/droplet\/uninstaller\/shots\/settings-pane.png",
+    "\/Users\/danny\/droplet\/uninstaller\/shots\/lock-screen.png",
+    "\/Users\/danny\/droplet\/uninstaller\/shots\/menu-bar.png",
+    "\/Users\/danny\/droplet\/uninstaller\/shots\/capabilities.png",
+    "\/Users\/danny\/droplet\/uninstaller\/shots\/preferences.png",
+    "\/Users\/danny\/droplet\/uninstaller\/shots\/activity.png"
+  ],
+  "surfaces" : [
+    {
+      "declared" : true,
+      "implemented" : true,
+      "surface" : "shelf-widget",
+      "verdict" : "provided"
+    },
+    {
+      "declared" : false,
+      "implemented" : false,
+      "surface" : "live-activity",
+      "verdict" : "not-provided"
+    },
+    {
+      "declared" : true,
+      "implemented" : true,
+      "surface" : "expanded-surface",
+      "verdict" : "provided"
+    },
+    {
+      "declared" : true,
+      "implemented" : true,
+      "surface" : "settings-pane",
+      "verdict" : "provided"
+    },
+    {
+      "declared" : true,
+      "implemented" : true,
+      "surface" : "hud",
+      "verdict" : "provided"
+    },
+    {
+      "declared" : false,
+      "implemented" : false,
+      "surface" : "lock-screen-status",
+      "verdict" : "not-provided"
+    },
+    {
+      "declared" : false,
+      "implemented" : false,
+      "surface" : "menu-bar-extra",
+      "verdict" : "not-provided"
+    }
+  ],
+  "verdict" : "ok"
+}
